@@ -1,0 +1,37 @@
+\documentclass{article}
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{geometry}
+
+\DeclareFontEncoding{LS2}{}{\noaccents@}
+\DeclareFontSubstitution{LS2}{stix}{m}{n}
+
+\DeclareSymbolFont{integrals}{LS2}{stixcal}{m}{n}
+\DeclareMathSymbol{\ointupop}{\mathop}{integrals}{"B2}
+\DeclareMathSymbol{\intupop}{\mathop}{integrals}{"E5}
+
+\makeatletter
+\renewcommand*{\oint}{\DOTSI\ointupop\ilimits@}
+\renewcommand*{\int}{\DOTSI\intupop\ilimits@}
+\makeatother
+
+\setlength{\droptitle}{-3em}
+\title{\vspace{-1cm}ИДЗ №1}
+
+\geometry{a4paper, margin=2cm}
+
+\begin{document}
+	\begin{enumerate}
+		%TASK_1%
+		%TASK_2%
+		%TASK_3%
+		%TASK_4%
+		%TASK_5%
+		%TASK_6%
+	\end{enumerate}
+\end{document}
