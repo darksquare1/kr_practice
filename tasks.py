@@ -10,6 +10,7 @@ TASKS2 = [
     r'Найдите $\frac{\partial f}{\partial z}$, если $f(z)= z\sin{|z|^2}$',
     r'Найдите $\frac{\partial f}{\partial \overline{z}}$, если $f(z)= ze^{|z|^2}$',
     r'Найдите $\frac{\partial f}{\partial \overline{z}}$, если $f(z)= x + y + ixy$'
+
 ]
 
 TASKS3 = [
